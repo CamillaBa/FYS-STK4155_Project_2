@@ -36,9 +36,9 @@ energies = ising_energies(states,L)
 # neural network
 #===================================================================================================
 
-# shrink data in consideration 
-states = states[0:600]
-energies = energies[0:600]
+# shrink data in consideration (optional)
+#states = states[0:600]
+#energies = energies[0:600]
 data_size = len(states)
 
 n = np.size(energies)
