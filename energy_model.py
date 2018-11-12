@@ -105,7 +105,7 @@ k = 3
 #generate_kval_betas(data, Nstart, Nstop, k, "Ising_J_1_")
 plot_error_kval(data, Nstart, Nstop, k, "Ising_J_1_", "Ising model $J=1$ regression performance")
 
-# time and print R2 scores of ols, ridge and lasso for final model
+# time ols, ridge and lasso (final model)
 def time_method(data, LAMBDA = None, epsilon = None):
     '''Function to measure time it takes to run either lasso, ridge or lasso.
     Writing:
